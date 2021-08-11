@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <array name="pref_cryptography_algorithm_option_labels">
+        <item>@string/pref_cryptography_algorithm_label_none</item>
+<!--        <item>@string/pref_cryptography_algorithm_label_rsa</item>-->
+        <item>@string/pref_cryptography_algorithm_label_aes</item>
+<!--        <item>@string/pref_cryptography_algorithm_label_des</item>-->
+    </array>
+
+    <array name="pref_cryptography_algorithm_option_values">
+        <item>@string/pref_cryptography_algorithm_value_none</item>
+<!--        <item>@string/pref_cryptography_algorithm_value_rsa</item>-->
+        <item>@string/pref_cryptography_algorithm_value_aes</item>
+<!--        <item>@string/pref_cryptography_algorithm_label_des</item>-->
+    </array>
+    
+</resources>

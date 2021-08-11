@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:defaultValue="@string/pref_cryptography_algorithm_value_none"
+        app:entries="@array/pref_cryptography_algorithm_option_labels"
+        app:entryValues="@array/pref_cryptography_algorithm_option_values"
+        app:key="@string/pref_cryptography_algorithm_key"
+        app:title="@string/pref_cryptography_algorithm_label"
+        app:useSimpleSummaryProvider="true"
+        app:icon="@drawable/ic_cryptography_algorithm"/>
+
+</PreferenceScreen>
